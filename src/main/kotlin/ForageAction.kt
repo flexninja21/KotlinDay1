@@ -1,2 +1,2 @@
-open class ForageAction{
+open class ForageAction : Action() {
 }
