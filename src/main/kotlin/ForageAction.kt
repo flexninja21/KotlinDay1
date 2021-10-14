@@ -1,2 +1,2 @@
-class ForageAction {
+open class ForageAction{
 }

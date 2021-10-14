@@ -1,2 +1,2 @@
-abstract class Action {
+abstract class Action :ForageAction(){
 }
