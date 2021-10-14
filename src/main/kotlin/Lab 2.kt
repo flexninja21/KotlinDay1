@@ -2,17 +2,18 @@ import java.lang.NumberFormatException
 
     var funds : Double = 100.0
     val pswd = "password"
+    fun balance() {
+        println("current value of funds: $funds")
+        }
+    fun deposit (amount: Double){
+        funds += amount
+        println(balance())
+        }
 
 
 
     fun main() {
-        fun balance() {
-            println("current value of funds: $funds")
-        }
-        fun deposit (amount: Double){
-            funds += amount
-            println(balance())
-        }
+
         var input: String
         var cmd: List<String>
         while (true) {
