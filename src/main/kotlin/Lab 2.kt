@@ -22,14 +22,16 @@ import java.lang.NumberFormatException
             cmd = input.split(" ")
             when (cmd[0]) {
                 // Each command goes here...
+                //Question 2
                 "balance" -> balance()
-                "deposit" -> {
+                //Question 3
+                "deposit" ->
                     try {
                         deposit(cmd[1].toDouble())
                     } catch (e: NumberFormatException) {
                         println("number format exception")
                     }
-                }
+
 
                 else -> println("Invalid command")
             }
