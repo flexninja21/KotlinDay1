@@ -29,13 +29,13 @@
                     try {
                         deposit(cmd[1].toDouble())
                     } catch (e: NumberFormatException) {
-                        println("number format exception")
+                        println("Please enter a number")
                     }
                 "withdraw"->
                     try {
                         withdraw(cmd[1].toDouble())
                     } catch (e : NumberFormatException) {
-                        println("number format exception")
+                        println("Please enter a number")
                     }
 
 
